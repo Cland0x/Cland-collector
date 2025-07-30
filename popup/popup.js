@@ -3240,20 +3240,6 @@ const Settings = createLucideIcon("Settings", [
   ["circle", { cx: "12", cy: "12", r: "3", key: "1v7zrd" }]
 ]);
 
-/**
- * @license lucide-react v0.294.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-
-
-const Wallet = createLucideIcon("Wallet", [
-  ["path", { d: "M21 12V7H5a2 2 0 0 1 0-4h14v4", key: "195gfw" }],
-  ["path", { d: "M3 5v14a2 2 0 0 0 2 2h16v-5", key: "195n9w" }],
-  ["path", { d: "M18 12a2 2 0 0 0 0 4h4v-4Z", key: "vllfpd" }]
-]);
-
 const crypto$1 = typeof globalThis === "object" && "crypto" in globalThis ? globalThis.crypto : void 0;
 
 /*! noble-hashes - MIT License (c) 2022 Paul Miller (paulmillr.com) */
@@ -23476,7 +23462,7 @@ function App() {
   return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container", children: [
     /* @__PURE__ */ jsxRuntimeExports.jsxs("header", { className: "app-header", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "header-left", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx(Wallet, { className: "h-6 w-6", style: { color: "var(--accent-color)" } }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: "public/cland-logo.png", alt: "Cland", className: "cland-logo" }),
         /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { children: "Cland" })
       ] }),
       /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "tagline", children: "Solana Rent Recovery" })

@@ -2,19 +2,13 @@
   "manifest_version": 3,
   "name": "Cland",
   "version": "1.0.0",
-  "description": "A secure Chrome extension for collecting rent from Solana token accounts. Upload wallet files, configure RPC endpoints, and recover SOL from unused token accounts. All operations are performed locally - private keys never leave your browser.",
+  "description": "Collect rent from Solana token accounts. Secure, local processing only.",
   "permissions": [
     "storage"
   ],
   "action": {
     "default_popup": "popup.html",
     "default_title": "Cland"
-  },
-  "icons": {
-    "16": "public/icon16.png",
-    "32": "public/icon32.png",
-    "48": "public/icon48.png",
-    "128": "public/icon128.png"
   },
   "content_security_policy": {
     "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self';"
